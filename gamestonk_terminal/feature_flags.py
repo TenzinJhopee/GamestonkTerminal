@@ -36,3 +36,6 @@ ENABLE_THOUGHTS_DAY = strtobool(os.getenv("GTFF_ENABLE_THOUGHTS_DAY", "False"))
 
 # Quick exit for testing
 ENABLE_QUICK_EXIT = strtobool(os.getenv("GTFF_ENABLE_QUICK_EXIT", "False"))
+
+#ML prediction
+ENABLE_PREDICT = os.getenv("GTFF_ENABLE_PREDICT") or True
