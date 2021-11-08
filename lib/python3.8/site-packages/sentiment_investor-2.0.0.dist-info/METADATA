@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: sentiment-investor
+Version: 2.0.0
+Summary: Access the Sentiment Investor API through Python
+Home-page: https://sentimentinvestor.com
+Author: Robert Stok
+Author-email: rs.stok@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
+Requires-Dist: sentipy
+
+# SentiPy
+
+> Welcome to the Sentiment Investor API wrapper. This package can be used to easily access trending stocks and individual ticker data from the sentimentinvestor.com website. 
+
+## Installing
+
+SentiPy can be installed with [pip](https://pip.pypa.io/en/stable/)
+
+```
+$ python3 -m pip install sentiment-investor
+```
+
+## Setup
+
+To use this package you will need a developer token and key, which can be obtained from [sentimentinvestor.com/developer/dashboard](https://sentimentinvestor.com/developer/dashboard). 
+
+## Documentation
+
+SentiPy has usage and reference documentation at [sentimentinvestor.com/developer/python-docs](https://sentimentinvestor.com/developer/python-docs).
+
+## Licence
+
+SentiPy is made available under the MIT Licence. For more details, see [LICENSE.txt](https://github.com/sentimentinvestor/sentipy/blob/master/LICENSE).
+
+

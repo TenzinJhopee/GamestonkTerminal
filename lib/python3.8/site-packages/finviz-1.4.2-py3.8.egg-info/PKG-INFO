@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: finviz
+Version: 1.4.2
+Summary: Unofficial API for FinViz.com
+Home-page: https://github.com/mariostoev/finviz
+Author: Mario Stoev, James Bury
+Author-email: bg.mstoev@gmail.com, jabury@sympatico.ca
+License: MIT
+Download-URL: https://github.com/mariostoev/finviz/archive/1.4.2.tar.gz
+Description: UNKNOWN
+Keywords: finviz,api,screener,finviz api,charts,scraper
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8

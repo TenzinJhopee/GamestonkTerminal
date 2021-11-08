@@ -47,7 +47,7 @@ class TerminalController:
         "keys",
     ]
 
-    CHOICES_SHORTHAND_MENUS = ["s", "e", "c", "p", "f", "o", "rp", "rs"]
+    CHOICES_SHORTHAND_MENUS = ["s", "e", "c", "p", "f", "o", "rp", "rs", "rai"]
     CHOICES_MENUS = [
         "stocks",
         "economy",
@@ -58,6 +58,7 @@ class TerminalController:
         "etf",
         "reports",
         "resources",
+        "rvaldi_ai"
     ]
 
     CHOICES += CHOICES_COMMANDS
@@ -67,7 +68,8 @@ class TerminalController:
     def __init__(self):
         """Constructor"""
         self.update_succcess = False
-        self.t_parser = argparse.ArgumentParser(add_help=False, prog="terminal")
+        self.t_parser = argparse.ArgumentParser(
+            add_help=False, prog="terminal")
         self.t_parser.add_argument(
             "cmd",
             choices=self.CHOICES,
@@ -97,6 +99,7 @@ What do you want to do?
 >>  forex
 >>  reports
 >>  resources
+>>  rvaldi_ai
     """
         print(help_text)
 
@@ -248,6 +251,11 @@ What do you want to do?
     def call_p(self, _):
         """Process portfolio command"""
         return self.call_portfolio(_)
+
+    def call_rai(self, _):
+        """Rvaldi ai selection command"""
+        from gamestonk_terminal.rvaldi import rvaldiai_controller
+        return rvaldiai_controller.showTodayDate()
 
 
 def terminal(menu_prior_to_reset=""):

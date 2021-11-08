@@ -1,0 +1,5 @@
+python-dateutil
+six
+convertdate>=2.3.0
+korean_lunar_calendar
+hijri_converter

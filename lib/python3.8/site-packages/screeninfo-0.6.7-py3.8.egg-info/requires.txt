@@ -1,0 +1,7 @@
+
+[:python_version < "3.7"]
+dataclasses
+
+[:sys_platform == "darwin"]
+Cython
+pyobjc-framework-Cocoa
